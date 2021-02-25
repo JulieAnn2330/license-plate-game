@@ -7,10 +7,10 @@ const Header = () => {
             <Link href='/' className='item'>
                 Home
             </Link>
-            <Link href='/' className='item'>
+            <Link href='/index' className='item'>
                 New Game
             </Link>
-            <Link href='/' className='item'>
+            <Link href='/savedGames' className='item'>
                 Saved Games
             </Link>
         </div>
