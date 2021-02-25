@@ -6,7 +6,12 @@ var States = () => {
  
     return (
         <div>
-            <div>State List</div>
+             <div>
+            <input type='input' name='TripName' />
+            <label>Trip Name</label>
+            </div>
+            <div>Click the box to check off every license plate you see on your trip!</div>
+            <div>State List:</div>
             <div>
             <input type='checkbox' name='state' onClick={Checkbox} />
             <label>Alabama</label>
