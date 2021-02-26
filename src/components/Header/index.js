@@ -7,7 +7,7 @@ const Header = () => {
             <Link href='/' className='item'>
                 Home
             </Link>
-            <Link href='/index' className='item'>
+            <Link href='/newGame' className='item'>
                 New Game
             </Link>
             <Link href='/savedGames' className='item'>

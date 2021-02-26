@@ -1,16 +1,23 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Checkbox from '../Checkbox'
-import './styles.css'
+import './styles.css';
+import InputField from '../InputField'
 
 var States = () => {
- 
+    const tripForm = useRef(null)
+
+    const handleClickEvent = () => {
+        const form = tripForm.current
+    }
+
     return (
         <div>
-             <div>
-            <input type='input' name='TripName' />
-            <label>Trip Name</label>
-            </div>
-            <div>Click the box to check off every license plate you see on your trip!</div>
+            <form ref={tripForm}>
+            <InputField className='input' />
+            </form>
+            <button className='button' onClick={handleClickEvent}>Enter & Save Trip Name</button>
+    
+            <div>Click the checkbox to save every license plate you see on your trip!</div>
             <div>State List:</div>
             <div>
             <input type='checkbox' name='state' onClick={Checkbox} />
