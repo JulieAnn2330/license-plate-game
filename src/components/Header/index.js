@@ -3,7 +3,7 @@ import Link from '../Link';
 
 const Header = () => {
     return (
-        <div className='ui secondary pointing menu'>
+        <div className='fixed-header'>
             <Link href='/' className='item' className='nav'>
                 Home
             </Link>

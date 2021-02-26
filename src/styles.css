@@ -10,6 +10,37 @@
     color: navy;  
 }
 
+body{        
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: gray;
+}
+.fixed-header {
+    width: 100%;
+    position: fixed;        
+    background: gray;
+    padding: 10px 0;
+    color: gray;
+}
+.fixed-header{
+    top: 0;
+    color: gray;
+}
+.fixed-footer{
+    bottom: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto; /* Center the DIV horizontally */
+    color: gray;
+}
+nav a{
+    color: gray;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
 .license {
     height: 300px;
     width: 400px;
