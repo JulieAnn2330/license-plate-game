@@ -16,6 +16,7 @@ var States = () => {
             <InputField className='input' />
             </form>
             <button className='button' onClick={handleClickEvent}>Enter & Save Trip Name</button>
+            <button className='button2' onClick={handleClickEvent}>Save Game Progress</button>
     
             <div>Click the checkbox to save every license plate you see on your trip!</div>
             <div>State List:</div>
